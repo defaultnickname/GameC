@@ -42,7 +42,9 @@ namespace Game.Engine
 
         private static List<MonsterFactory> monsterFactories = new List<MonsterFactory>()
         {
-            new Monsters.MonsterFactories.RatFactory()
+            new Monsters.MonsterFactories.RatFactory(),
+            new Monsters.MonsterFactories.OrcFactory(),
+            new Monsters.MonsterFactories.LychFactory()
         };
 
         private static List<InteractionFactory> interactionFactories = new List<InteractionFactory>()

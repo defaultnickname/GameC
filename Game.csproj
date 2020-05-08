@@ -149,10 +149,14 @@
     <Compile Include="Engine\Items\Sword.cs" />
     <Compile Include="Engine\MapMatrix.cs" />
     <Compile Include="Engine\MetaMapMatrix.cs" />
+    <Compile Include="Engine\Monsters\Lych.cs" />
     <Compile Include="Engine\Monsters\Monster.cs" />
     <Compile Include="Engine\CharacterClasses\Player.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\LychFactory.cs" />
     <Compile Include="Engine\Monsters\MonsterFactories\MonsterFactory.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\OrcFactory.cs" />
     <Compile Include="Engine\Monsters\MonsterFactories\RatFactory.cs" />
+    <Compile Include="Engine\Monsters\Orc.cs" />
     <Compile Include="Engine\Monsters\Rat.cs" />
     <Compile Include="Engine\Monsters\RatEvolved.cs" />
     <Compile Include="Engine\SaveData.cs" />
